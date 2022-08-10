@@ -13,6 +13,8 @@
             </div>
             <router-link to='/home' className="btn btn-ghost normal-case text-xl">Mahmudul Islam</router-link>
              <a href="../../public/Mohammad Mahmudul Islam-Front-End.pdf" target="_blank" download>Download Resume</a>
+             <a href="#skills" class="mx-2">Skills</a>
+              <a href="#projects" class="mx-2">Projects</a>
         </div>
         <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal p-0">

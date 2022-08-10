@@ -1,5 +1,5 @@
 <template>
-<div class="">
+<div class="" id="projects">
   <h1 class="text-5xl text-center text-purple-700 my-3">Projects</h1>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-2 mx-4 ">
   <div v-for="project in projects" :key="project.id" className=" text-white bg-gray-800 p-3 rounded">
