@@ -1,5 +1,5 @@
 <template>
-    <div className="bg-[#F9F6F0]">
+    <div className="">
             <h1 className="text-5xl text-purple-700 py-2 text-center">Skills</h1>
             <ul class="steps w-full py-5">
                 <li data-content="✓" class="step step-secondary w-25">Html5</li>

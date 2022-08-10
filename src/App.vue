@@ -1,25 +1,23 @@
 
 <template>
   <Navbar></Navbar>
-  <Header></Header>
-  <Skills></Skills>
-  <Projects></Projects>
+  <Home></Home>
+  <Footer></Footer>
+
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue'
-import Header from './components/Header.vue'
-import Skills from './components/Skills.vue'
-import Projects from './components/Projects.vue'
+import Home from '../src/View/Home.vue'
+import Navbar from '../src/components/Navbar.vue'
+import Footer from '../src/components/Footer.vue'
 export default
 {
    name:"App",
    components:{
     Navbar:Navbar,
-    Header:Header,
-    Skills:Skills,
-    Projects:Projects
-   }
+    Home: Home,
+    Footer:Footer
+}
 }
 </script>
 
