@@ -10,7 +10,7 @@
           <div>
             <h1 class="text-5xl font-bold">Portfolio</h1>
             <p class="py-6 text-3xl">HI, I am Mohammad Mahmudul Islam<span className="block">Full Stack web develper</span></p>
-             <button class="btn btn-secondary font-bold">Hire Me</button>
+              <a class="btn btn-secondary" href="../../public/Mohammad Mahmudul Islam-Front-End.pdf" target="_blank" download>Download Resume</a>
           </div>
         </div>
       </div>

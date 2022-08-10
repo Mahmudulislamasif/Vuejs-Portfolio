@@ -7,7 +7,7 @@
     <img :src="project.image" alt="" class="mx-auto"/>
     <p class="text-2xl mt-3 text-center">{{project.name}}</p>
     <p class="my-3">{{project.describe}}</p>
-    <p className="text-left my-3">Technology:{{project.technology}}</p>
+    <p className="text-left my-3">Technology:<span class="block">{{project.technology}}</span></p>
          <div class="flex justify-between">
               <a  target=”_blank” className="bg-pink-500 w-1/2 mx-2 rounded text-white text-center " :href="project.live" alt=''>Live Site</a>
               <a  target=”_blank” className="bg-pink-500 w-1/2 mx-2 rounded text-white text-center" :href="project.client" alt=''>Client Site</a>
